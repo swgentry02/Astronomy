@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Astronomy.Pages.AstronomicalBodiesPage"
+             Title="Body Groups">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Button">
+                <Setter Property="FontSize" Value="50" />
+                <Setter Property="BorderColor" Value="Aqua" />
+                <Setter Property="ImageSource" Value="700"  />
+                
+            </Style>
+            <Style TargetType="Label">
+                <Setter Property="HorizontalOptions" Value="Center" />
+                <Setter Property="VerticalOptions" Value="End" />
+                <Setter Property="Margin" Value="5" />
+                <Setter Property="FontAttributes" Value="Bold" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <Grid Margin="8">
+        <Button x:Name="btnChest" Grid.Row="0" Grid.Column="0" Text="Chest" TextColor="AntiqueWhite" BackgroundColor="Black" BorderColor="Aqua"/>
+        <Button x:Name="btnMoon"  Grid.Row="0" Grid.Column="1" Text="Legs" TextColor="AntiqueWhite" BackgroundColor="Black" BorderColor="Aqua"/>
+        <Button x:Name="btnSun"   Grid.Row="1" Grid.Column="0" Text="Arms" TextColor="AntiqueWhite" BackgroundColor="Black" BorderColor="Aqua"/>
+        <Button x:Name="btnComet" Grid.Row="1" Grid.Column="1" Text="Back" TextColor="AntiqueWhite" BackgroundColor="Black" BorderColor="Aqua"/>
+
+
+        <Label Grid.Row="0" Grid.Column="0" Text="Chest"  TextColor="White"/>
+        <Label Grid.Row="0" Grid.Column="1" Text="Legs"  TextColor="White"/>
+        <Label Grid.Row="1" Grid.Column="0" Text="Arms"  TextColor="White"/>
+        <Label Grid.Row="1" Grid.Column="1" Text="Back" TextColor="White" />
+    </Grid>
+
+</ContentPage>

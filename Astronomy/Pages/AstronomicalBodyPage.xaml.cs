@@ -16,6 +16,7 @@ namespace Astronomy.Pages
             lblCircumference.Text = body.Circumference;
             lblAge.Text = body.Age;
             lblWorkout4.Text = body.Workout4;
+            lblWorkout5.Text = body.Workout5;
         }
     }
 }

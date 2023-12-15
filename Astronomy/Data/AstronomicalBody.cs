@@ -12,6 +12,7 @@ namespace Astronomy
         public string Age { get; set; }
         public string EmojiIcon { get; set; }
         public string Workout4 { get; set; }
+        public string Workout5 { get; set; }
         
     }
     public class Hello

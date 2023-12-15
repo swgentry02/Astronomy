@@ -6,7 +6,7 @@
              Title="Fitness App" Padding="10" 
              BackgroundImage="frontpage.png">
 
-    
+
 
 
 
@@ -21,8 +21,8 @@
 
     <StackLayout Padding="10" Spacing="5">
         <Label Text="Ready to Workout?" HorizontalOptions="CenterAndExpand" FontSize="Title" TextColor="White" FontAttributes="Bold" />
-        <Label Text="We'll Help Build Your Workout!!" TextColor="White" HorizontalOptions="Center" FontAttributes="Bold" />
-        
+        <Label Text="We'll Help Build Your Workout!!!" TextColor="White" HorizontalOptions="Center" FontAttributes="Bold" />
+
         <Button x:Name="btnBegin" Text="Click to Begin" Padding="50" />
         <Button x:Name="btnAbout" Text="About the App" Padding="50"/>
     </StackLayout>

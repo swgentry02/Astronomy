@@ -11,7 +11,8 @@ namespace Astronomy
             Circumference = "Drag Curls",
             Age = "Kettelbell Hammer Curls",          
             Workout4 = "Cable Skull Crusher",
-            Workout5 = "JM Press"
+            Workout5 = "JM Press",
+            Workout6 =""
         };
 
         public static AstronomicalBody Chest = new AstronomicalBody()
@@ -29,7 +30,7 @@ namespace Astronomy
         public static AstronomicalBody Legs = new AstronomicalBody()
         {
             Name = "Leg Exercises",
-            Mass = "Hack Squat",
+            Mass = "Seated Dumbbell Toe Raise",
             Circumference = " Romanian Deadlift",
             Age = "Nordic Hamstring Curl",          
             Workout4 = "Bulgarin Split Squat",

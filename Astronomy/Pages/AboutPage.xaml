@@ -7,7 +7,12 @@
     <StackLayout Padding="10" Spacing="5">
         <Label Text="This app is designed to incorporate unique and often overlooked workouts into your routine." />
         <Label Text="Exercise benefits and visual instructions can be found on: https://www.muscleandfitness.com " />
-        
+        <Label Text="Click me to visit the website" TextColor="Blue" >
+            <Label.GestureRecognizers>
+                <TapGestureRecognizer Tapped="OnLabelClicked" />
+            </Label.GestureRecognizers>
+        </Label>
+
     </StackLayout>
 
 </ContentPage>

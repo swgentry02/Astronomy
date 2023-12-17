@@ -31,7 +31,7 @@
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
 
-        <Image Aspect="AspectFill" Grid.RowSpan="7" Grid.ColumnSpan="2" Source="ContentPage.png" />
+        <Image Aspect="AspectFill" Grid.RowSpan="8" Grid.ColumnSpan="2" Source="ContentPage.png" />
 
         <Label x:Name="lblIcon" FontSize="96" Grid.Row="0" Grid.ColumnSpan="2" HorizontalOptions="Center" />
         <Label x:Name="lblName" FontSize="Medium" FontAttributes="Bold" Grid.Row="1" Grid.ColumnSpan="2" HorizontalOptions="Center" />
@@ -41,12 +41,21 @@
         <Label FontAttributes="Bold" Grid.Row="4" HorizontalOptions="End" Text="Workout 3:" />
         <Label FontAttributes="Bold" Grid.Row="5" HorizontalOptions="End" Text="Workout 4:" />
         <Label FontAttributes="Bold" Grid.Row="6" HorizontalOptions="End" Text="Workout 5:" />
+        <Label FontAttributes="Bold" Grid.Row="7" VerticalOptions="Center" HorizontalOptions="CenterAndExpand" FontSize="20" TextColor="White" Text="Click to Find Videos" >
+            <Label.GestureRecognizers>
+            <TapGestureRecognizer Tapped="OnLabelClick" />
+            </Label.GestureRecognizers>
+        </Label>
 
         <Label x:Name="lblMass" Grid.Row="2" Grid.Column="1" />
         <Label x:Name="lblCircumference" Grid.Row="3" Grid.Column="1" />
         <Label x:Name="lblAge" Grid.Row="4" Grid.Column="1" />
         <Label x:Name="lblWorkout4" Grid.Row="5" Grid.Column="1" />
         <Label x:Name="lblWorkout5" Grid.Row="6" Grid.Column="1" />
+        <Label x:Name="lblWorkout6" Grid.Row="7" Grid.Column="1" />
+
+        
+
 
     </Grid>
 </ContentPage>
